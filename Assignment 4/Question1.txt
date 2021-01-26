@@ -1,0 +1,40 @@
+1.getElementById()
+
+Typically you want to access an element within the DOM directly and try to do 
+something with it. Javascript provides a document.getElementById() method,
+ which is the easiest way to access an element from the DOM tree structure. 
+ It will return the element that has the ID attribute with the specified value.
+Ex:document.getElementById("ID");
+
+
+
+2.getElementsByTagName
+
+The getElementsByTagName() is one of the method exposes for accessing nodes directly.
+ This method takes a tag name as argument and returns a collection of all the nodes 
+ it finds in the document that are a sort of tag.
+ Ex:document.getElementsByTagName("TagName");
+
+
+
+3.getElementsByClassName()
+
+The getElementsByClass() method works same like getElementById() method, and it will 
+returns a collection of all elements in the document with the specified class name.
+Ex:document.getElementsByClassName("ClassName");
+
+
+
+4.querySelector()
+
+It will returns the first element that matches a specified CSS selector in the document.
+Ex:document.querySelector("#testQuery");
+
+
+
+5.querySelectorAll()
+
+The querySelectorAll() method returns a collection filled with the matching elements in 
+source order. Since it is a static collection, the modification of the document has no 
+effect on the collection.
+Ex:document.querySelectorAll("div,p");
